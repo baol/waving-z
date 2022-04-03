@@ -60,6 +60,6 @@ separation are in phase).
 
 The demodulator is based on
 https://github.com/andersesbensen/rtl-zwave and consists of an atan
-demodulator and 2 nested state machines, tqhe first one (`sample_sm`)
+demodulator and 2 nested state machines, the first one (`sample_sm`)
 converts the samples into symbols and the second one (`symbol_sm`) the
 bits into frame information and payload.
